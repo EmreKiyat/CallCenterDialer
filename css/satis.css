@@ -1,0 +1,82 @@
+﻿.satisUndefFieldAna
+{
+float:left;clear:left;margin:3px;margin-left:14px;
+font-family:verdana; font-size:12px; color:#333333;
+}
+.satisUndefLabel
+{
+width:130px;
+float:left;
+
+}
+
+.satisUndefText
+{
+width:400px;
+margin-right:20px;
+float:left;
+}
+.y90
+{
+width:90%;
+}
+
+.y80
+{
+width:80%;
+}
+.popupSatis
+{
+ background-color:White;
+  border:solid 6px #ccc;
+  Width: 640px;
+  Height:580px;
+}
+
+.popupNotSold
+{
+background-color:White;
+  border:solid 6px #ccc;
+  Width: 400px;
+  Height:350px;
+}
+.lblBuyuk
+{
+margin-left:40px;margin-right:40px;
+font-weight:700; font-size:15px;
+}
+.gridRow
+{
+ margin-top:3px;
+ border:1px solid #bbbbbb;
+ background-color:#F5F5DC;
+ font-size:10px;
+}
+.gridRowA
+{
+ margin-top:3px;
+ border:1px solid #bbbbbb;
+ background-color:#fcfcdf;
+ font-size:10px;
+}
+.noteRpt
+{
+float:left;clear:left;margin:2px;border-bottom:1px solid #eeeeee; font-size:11px;
+margin-top:3px;
+}
+.noteRpt2
+{
+float:left;clear:left;margin:2px;border-bottom:1px solid #eeeeee; font-size:12px;
+margin-top:3px;
+}
+
+.grdRowStyle
+{
+ background-color:#F5F5DC;
+ color:#5E5281;
+}
+
+.grdARowStyle
+{
+background-color:#ffffff; color:#6E6291;
+}

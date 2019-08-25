@@ -1,0 +1,97 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Master/tt.master" AutoEventWireup="false" CodeFile="ttAdmin.master.vb" Inherits="Master_ttAdmin" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<%--<img alt="" src="../images/logo/tenha2.gif" />--%>
+ <asp:Image ID="imgLogoM" runat="server" />
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contentMainPart" Runat="Server">
+
+<div style="margin-left:20px;">
+    <asp:Label ID="lblAgentAdSoyad" runat="server"></asp:Label>
+
+</div>
+    <div style="float:left; height:194em; margin:3px; margin-top:22px; width:24%;">
+
+    <cc1:TabContainer ID="TabContainer1" runat="server" Height="1500px" CssClass="gray">
+    <cc1:TabPanel ID="TabPanel1" runat="server" >
+    <HeaderTemplate>
+        <asp:Label ID="lblUserCreate" runat="server" Text="Admin Menü"></asp:Label>
+    </HeaderTemplate>
+    <ContentTemplate>
+
+<cc1:Accordion ID="accMenu" runat="server" FadeTransitions="True" 
+SelectedIndex="0" TransitionDuration="300"  HeaderCssClass="accordionHeader" 
+ContentCssClass="accordionContent">
+
+<Panes>
+<cc1:AccordionPane id="AccordionPane1" runat="server">
+<Header>
+    <asp:Label ID="menuHeadRapor" runat="server" Text="Menu"></asp:Label></Header>
+<Content>
+<asp:LinkButton ID="lnkProjeIzle" CssClass="menuLnk" runat="server">Proje İzle</asp:LinkButton><br />
+    <asp:LinkButton ID="lnkDataYukle" CssClass="menuLnk" runat="server">Data Yükle</asp:LinkButton><br />
+    <asp:LinkButton ID="lnkProjeCreate" CssClass="menuLnk" runat="server">Proje Oluştur</asp:LinkButton><br />
+    <asp:LinkButton ID="lnkAgentCreate" CssClass="menuLnk" runat="server">Agent-Kontroller Oluştur</asp:LinkButton><br />
+
+    <asp:LinkButton ID="lnkAgentDetail" CssClass="menuLnk" runat="server">Agentler</asp:LinkButton><br />
+
+    <asp:LinkButton ID="lnkTelBul" CssClass="menuLnk" runat="server">Telefon Bul</asp:LinkButton><br />
+    <asp:LinkButton ID="lnkKarakterTemizle" CssClass="menuLnk" runat="server">Özel Karakter Temizle</asp:LinkButton><br />
+
+</Content>
+</cc1:AccordionPane>
+<%--<cc1:AccordionPane id="AccordionPane2" runat="server">
+<Header><asp:Label ID="menuHeadCalisan" runat="server" Text="Çalışan Tanımları"></asp:Label>
+</Header>
+<Content>
+    <asp:LinkButton ID="lnkDefineNewEmp" CssClass="menuLnk" runat="server">Yeni Çalışan Tanımla</asp:LinkButton><br />
+    <asp:LinkButton ID="lnkChangeRole" CssClass="menuLnk" runat="server">Çalışan Görev Değişikliği</asp:LinkButton><br />
+    <asp:LinkButton ID="lnkAddRemoveProject" CssClass="menuLnk" runat="server">Çalışan Proje Ekle-Değiştir</asp:LinkButton><br />
+
+
+</Content>
+</cc1:AccordionPane>
+<cc1:AccordionPane id="AccordionPane3" runat="server">
+<Header><asp:Label ID="menuHeadDataProje" runat="server" Text="Data-Proje"></asp:Label>
+</Header>
+<Content>
+    <asp:LinkButton ID="LinkButton1" CssClass="menuLnk" runat="server">Data Paketleri</asp:LinkButton><br />
+    <asp:LinkButton ID="LinkButton2" CssClass="menuLnk" runat="server">Projeler</asp:LinkButton><br />
+    <asp:LinkButton ID="LinkButton3" CssClass="menuLnk" runat="server">Yenileme Datası Oluşturma</asp:LinkButton><br />
+
+</Content>
+</cc1:AccordionPane>
+
+<cc1:AccordionPane id="AccordionPane4" runat="server">
+<Header><asp:Label ID="Label1" runat="server" Text="Araştırma/Anket"></asp:Label>
+</Header>
+<Content>
+    <asp:LinkButton ID="LinkButton8" CssClass="menuLnk" runat="server">Anket Projesi Oluştur</asp:LinkButton><br />
+
+
+</Content>
+</cc1:AccordionPane>
+
+--%>
+</Panes>
+
+    </cc1:Accordion>
+ 
+ </ContentTemplate>
+ </cc1:TabPanel>
+ </cc1:TabContainer>
+ 
+</div>
+
+<div style="width:74%; float:right; height:190em; margin:3px; margin-top:22px;">
+    <asp:ContentPlaceHolder  id="rightPart" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</div>
+
+</asp:Content>
+

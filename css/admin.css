@@ -1,0 +1,77 @@
+﻿body {
+}
+
+.adminFirstDiv
+{
+float:left; width:98%; margin:4px; margin-top:1px;
+}
+
+.tabCon
+{
+margin:5px; 
+width:96%;
+margin-top:14px;
+height:auto;
+
+}
+.ekleButon
+{
+text-align:right; width:96%;
+}
+.projeOzet
+{
+background-color:#fffbd0;  height:65px;border:1px solid #D4DCDC;margin:3px; float:left;width:15%;
+}
+.projeOzetHead
+{
+background-color:#D6BF86; color:#fcfcfc; width:100%; text-align:center;
+}
+.projeOzetIn
+{
+font-size:20px;font-family:Tahoma;text-align:center; padding:7px; color:#336;
+}
+.gridRow
+{
+ font-size:11px; color:#454545; padding:3px; font-family:Verdana; height:30px;
+border:1px solid #bbbbbb;
+}
+.gridRowAlt
+{
+ font-size:11px; color:#454545; padding:3px; font-family:Verdana;height:30px;background-color:#fffde0;
+border:1px solid #bbbbbb;
+}
+.buttonZ
+{
+  margin:3px; background-color:transparent; 
+}
+.popupA
+{
+ background-color:White;
+  border:solid 6px #ccc;
+  Width: 480px;
+  Height:360px;
+  
+}
+
+.itIsWorkingDiv
+{
+display: none; border:solid 8px #c7C6C3; position:absolute; z-index:99;
+}
+
+.itIsWorkingLbl
+{
+font-size:14px; padding:14px;
+}
+
+.itIsWorkingImg
+{
+text-align:center; vertical-align:middle; padding:24px; padding-left:76px; padding-right:76px; margin:20px;
+}
+
+.projeCombo
+{
+ width:26em;
+ font-size:14px;
+ color:#343434;
+ 
+}

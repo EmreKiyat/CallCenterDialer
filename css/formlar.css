@@ -1,0 +1,241 @@
+﻿
+.empCreateFormSutun1
+{
+float:left; clear:left;margin-right:14px; margin:4px;
+}
+
+.empCreateFormSutun2
+{
+float:left;margin-right:14px;margin:4px;margin-left:20px;
+}
+
+.popupButon
+{
+    margin:6px;
+}
+
+.popup1
+{
+ background-color:White;
+  border:solid 6px #ccc;
+  Width: 560px;
+  Height:400px;
+  
+}
+.popupAgnt
+{
+ background-color:White;
+  border:solid 6px #ccc;
+  Width: 460px;
+  Height:400px;
+  
+}
+
+.popupAgntForPaketDetay
+{
+ background-color:White;
+  border:solid 6px #ccc;
+  Width: 460px;
+  Height:510px;
+ 
+}
+
+
+.popupPaket
+{
+ background-color:White;
+  border:solid 6px #ccc;
+  Width: 520px;
+  Height:410px;
+  
+}
+
+.btnUlasilamayan
+{
+    width:180px;
+    height:34px;
+  font-size:11px;
+ 
+}
+
+.popupUyari
+{
+ background-color:White;
+  border:solid 6px #ccc;
+  Width: 460px;
+  Height:250px;
+  
+}
+.popupSonraAra
+{
+ background-color:White;
+  border:solid 6px #ccc;
+  Width: 400px;
+  Height:340px;
+   
+}
+.ortala
+{
+ text-align:center;
+}
+.hLabel
+{ padding:12px;
+ margin:12px;
+ font-size:14px;
+ font-weight:bold;
+}  
+.grid  
+{
+padding:4px;
+border:solid 2px #eee;
+}
+
+.txtMultiLine
+{
+
+Height:4em;
+Width:11em;
+
+}
+
+.txt2 {
+	letter-spacing: 0.1em;
+	border: 1px solid #D4D0C8;
+    padding:3px;
+    font-family:Thoma;
+    font-size:11px;   
+}
+
+.raporAllignRight
+{
+ text-align:right; padding-right:3px;
+}
+
+.agentButonlar
+{
+ width:124px;
+ height:48px;
+  margin-top:8px;
+ border-width:0px;
+ background-color:transparent;
+}
+.hidden
+{
+ visibility:hidden;
+}
+.agentButonlarAra
+{
+ width:68px;
+ height:48px;
+ vertical-align:text-top;
+ display:block;  
+ border-width:0px;
+ background-color:transparent;
+}
+
+.agentButonlarBgAra
+{
+background-image:url('../images/btnAra.png'); 
+}
+
+.agentButonlarBgGri
+{
+background-image:url('../images/btn1.png'); 
+}
+.agentButonlarBgRed
+{
+background-image:url('../images/btnRed.png'); 
+}
+.agentButonlarBgGrn
+{
+background-image:url('../images/btnGrn.png'); 
+}
+.kaydetButonlarBg
+{
+background-image:url('../images/btnKaydet.png'); 
+}
+.kaydetButonlar
+{
+ width:78px;
+ height:35px;
+ margin-top:8px;
+ border-width:0px;
+ background-color:transparent;
+}
+.popButonTamam
+{
+ width:68px;
+ height:27px;
+ margin-top:6px;
+ border-width:0px;
+ background-color:transparent;
+}
+.popButonTamamBg
+{
+background-image:url('../images/btn/popTamam.png'); 
+}
+.popButonIptal
+{
+ width:58px;
+ height:27px;
+ margin-top:6px;
+ border-width:0px;
+ background-color:transparent;
+}
+.popButonIptalBg
+{
+background-image:url('../images/btn/popIptal_1.png'); 
+}
+
+.popGridRow
+{
+ background-color:#F5F6F4;
+ color:#3E2241;
+ border:1px solid #dddddd;
+ font-size:11px;
+}
+
+.gridProjCreate
+{
+    margin-top:10px;
+
+}
+
+.wizardTxt
+{
+margin:14px;
+padding:3px;
+width:340px;
+ height:70px;
+}
+.wizardTxt2
+{
+    width:290px;
+    border:1px solid #dddddd;
+    color:#373737;
+    margin:1px;
+    margin-left:22px;
+
+}
+
+.wizardSolMenu
+{
+  background-color:#8d758d;
+  border:1px solid #dddddd;
+ color:#fdfdfd;
+  height:30px;
+  width:100px;
+  margin:2px;
+  margin-left:14px;
+  margin-right:15px;      
+  padding:6px; 
+ display:block;
+ vertical-align:middle;
+ font-size:13px;
+ text-decoration:none;
+ }
+.wizardStepMainDiv
+{
+ width:400px; height:300px; border:1px solid #cccccc; margin:18px;
+ }
+ 

@@ -1,0 +1,16 @@
+﻿body {
+    font-size:11px;
+    color:#343434;
+    background-color:#efefef;
+}
+
+.raporTabContainer
+{
+    height:auto;
+}
+.rporCombo
+{
+width:150px;
+margin-left:10px;
+margin-right:10px;
+}
